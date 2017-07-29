@@ -23,20 +23,20 @@ $ git clone https://github.com/prologic/web-security-checklist
 
 *Checklist for Backend<->Frontend Web Application(s)*
 
-* [ ] Transport Security -- Protect the transport from sniffing.
+* [ ] Transport Security -- *Protect the transport from sniffing*
   * [ ] TLS/SSL
   * [ ] Redirect al HTTP requests to HTTPS
   * [ ] Use a trusted Certificate Authority such as [LetsEncrypt](https://letsencrypt.org/)
-* [ ] Two Factor Auth -- Helps protect against stolen user credentials.
-  * [ ] Expire tokens periodically -- Helps prevent stolen OTP/U2F devices.
-* [ ] Session Cookies -- Helps prevent session fixation, hijacking and replay
-  * [ ] Regenerate Session IDs -- Helps thwart session hijacking/replay.
-  * [ ] Store session state server-side -- Riskier storing state client-side.
-  * [ ] Set `HttpOnly` -- Helps mitigate successful Cross-Site Scripting attacks.
-  * [ ] Set `Secure` -- Helps mitigate against Man-In-The-Middle attacks.
-* [ ] Secure IDs -- Helps thwart brute-force guesses of valid session ids.
+* [ ] Two Factor Auth -- *Helps protect against stolen user credentials*
+  * [ ] Expire tokens periodically -- *Helps prevent stolen OTP/U2F devices*
+* [ ] Session Cookies
+  * [ ] Regenerate Session IDs -- *Helps thwart session hijacking/replay*
+  * [ ] Store session state server-side -- *Riskier storing state client-side*
+  * [ ] Set `HttpOnly` -- *Helps mitigate successful Cross-Site Scripting attacks*
+  * [ ] Set `Secure` -- *Helps mitigate against Man-In-The-Middle attacks*
+* [ ] Secure IDs -- *Helps thwart brute-force guesses of valid session ids*
   * [ ] Cryptographic randomly generate UUIDs
-* [ ] Password Store -- Makes offline brute-force attacks much harder or impossible.
+* [ ] Password Store -- *Makes offline brute-force attacks much harder or impossible*
   * [ ] Use a strong KDFS such as bcrypt or scrypt.
   * [ ] Unique cryptographically secure 32bit (*ideally 64bit*) salt per password.
   * [ ] Do not restrict length and character set or encoding.

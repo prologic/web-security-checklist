@@ -33,7 +33,7 @@ $ git clone https://github.com/prologic/web-security-checklist
   * [ ] Regenerate Session IDs -- *Helps thwart session hijacking/replay*
   * [ ] Store session state server-side -- *Riskier storing state client-side*
   * [ ] Set `HttpOnly` -- *Helps mitigate successful Cross-Site Scripting attacks*
-  * [ ] Set `Secure` -- *Helps mitigate against Man-In-The-Middle attacks*
+  * [ ] Set `Secure` -- *Helps mitigate against Man-In-The-Middle attacks*
 * [ ] Secure IDs -- *Helps thwart brute-force guesses of valid session ids*
   * [ ] Cryptographic randomly generate UUIDs
 * [ ] Password Store -- *Makes offline brute-force attacks much harder or impossible*
@@ -56,7 +56,7 @@ $ git clone https://github.com/prologic/web-security-checklist
 
 ## Libraries
 
-*Recommended / Vetted libraires solving particular parts of security well.*
+*Recommended / Vetted libraries solving particular parts of security well.*
 (*Please contribute only libraries to this section; It is much harder to vet frameworks.*)
 
 ### Python

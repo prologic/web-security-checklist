@@ -13,6 +13,6 @@ $ git fork
 
 * Keep suggested edits/fixes/additions developer focused/friendly and short/terse. This ia a checklist not an in-depth book on security :)
 * If contributing to libraries for languages, try to avoid frameworks (*if at all possible*) as these are hard to vet, audit. Contribute libraries for your favourite language that you can vet that do one thing well.
-* If contributing to resources, please add respectable resources that have already been vetted by community and/or exports in the field.
+* If contributing to resources, please add respectable resources that have already been vetted by community and/or experts in the field.
 
 Thank you :)
